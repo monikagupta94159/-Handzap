@@ -1,0 +1,221 @@
+
+.container{
+    width: 100%;
+    max-width: 62%;
+    margin-top: 2em;
+}
+.header1{
+    box-shadow: 0 0.25rem 0.4rem #777777;;
+    height: 56vh;
+    background-color: white;
+}
+.header{
+    background-color: #f7f7f9;
+   
+}
+.box-shadow { 
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+ }
+
+.profile_image{
+    border-radius: 50%;
+    width: 16%;
+    height: 96%;
+}
+.dot {
+    height: 8px;
+    width: 9px;
+    background-color: #ef4410;
+    border-radius: 50%;
+    display: inline-block;
+    margin: -20px 0px 0px -23px;
+  }
+  h6{
+    margin: 25px;
+  }
+  .dropdown-menu{
+    width: 53%;
+    height: 22em;
+    border-top: none;
+    box-shadow: 5px 14px 18px rgba(0, 0, 0, .05);
+  }
+  .dropdown-menu .profile_image{
+    position: relative;
+    border-radius: 50%;
+    width: 17%;
+    height: 89%;
+    margin: 0 10px;
+  }
+  .border-right{
+    border-right: 1px solid #dee2e6!important;
+    position: absolute;
+    height: 19%;
+  }
+  .line-height{
+      line-height: 1em;
+      font-size: 16px;
+  }
+  .dropdown-menu .border-bottom{
+      margin-top: 3px;
+}
+.text-color{
+    color: #358072 !important;
+}
+.dropdown-menu .dropdown_dot{
+    width: 25px;
+    height: 25px;
+    background-color: #217ff6;
+    border-radius: 50%;
+    padding: 1px 4px;
+    margin: 17px 1em;
+}
+.item{
+    display: inline-block;
+    list-style: none;
+}
+
+.nav-link{
+    padding: .5rem 2rem;
+}
+.navbar-container ul {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.navbar-container ul li {
+	display: inline-block;
+	font-size: 16px;
+}
+
+.navbar-container ul li a {
+	color: black;
+	text-decoration: none;
+	display: inline-block;	
+	transition: color 0.5s;
+}
+.dropdown:hover > .dropdown-menu{
+    display: block;
+}
+
+.dropdown >.dropdown-toggel:active{
+    pointer-events: none;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .header1 {
+      background-color: green !important;
+    }
+    .dropdown-menu-right{
+        margin: 5px 0 0 -5em;
+        width: 100%;
+        max-width: 69%;
+    }
+  }
+
+  .navbar-container ul li .underline{
+    height: 3px;
+    background-color: transparent;
+    width: 0%;
+    transition: width 0.5s, background-color 0.5s;
+    margin: 0px auto;
+  }
+  .navbar-container ul li.active-link .underline{
+      width: 100%;
+      background-color: #358072;
+  }
+  .navbar-container ul li:hover .underline{
+      width: 100%;
+      background-color: #358072;
+  }
+  .navbar-container ul li:active a {
+	transition: none;
+	color: rgba(255,255,255,0.76);
+}
+
+.navbar-container ul li:active .underline {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .header1 {
+      background-color: #167af6 !important;
+    }
+    .dropdown-menu-right{
+        margin: 5px 0 0 -12em;
+        width: 100%;
+        max-width: 100%;
+    }
+    .small-md{
+        margin: 8px 0 13px 21px;
+        font-size: 13px;
+        width: 5em;
+    }
+    h4{
+        font-size: 21px;
+    }
+    .small-h6{
+        font-size: 14px;
+    }
+    .profile_image{
+        border-radius: 50%;
+        width: 27%;
+        height: 89%;
+    }
+  }
+  @media only screen and (min-width: 575px) and (max-width: 768px) {
+    .header1 {
+      background-color: black !important;
+    }
+    .dropdown-menu-right{
+        margin: 5px 0 0 -12em;
+        width: 100%;
+        max-width: 100%;
+    }
+    .small-md{
+        margin: -7px 0px 1px 9px;
+    font-size: 14px;
+    }
+    h4{
+        font-size: 14px;
+    }
+    .small-h6{
+        font-size: 12px;
+    }
+    .profile_image{
+        border-radius: 50%;
+    width: 30%;
+    height: 89%;
+    }
+  }
+
+  @media only screen and (min-width: 480px) and (max-width: 575px) {
+    .header1 {
+      background-color: red !important;
+    }
+    .dropdown-menu-right{
+        margin: 5px 0 0 -13em;
+        width: 100%;
+        max-width: 100%;
+    }
+    .small-md{
+        margin: -4px -56px 4px 21px;
+        font-size: 11px;
+        width: 8em;
+    }
+    h4{
+        font-size: 14px;
+    }
+    .small-h6{
+        font-size: 10px;
+    }
+    .profile_image{
+        border-radius: 50%;
+    width: 23%;
+    height: 89%;
+    }
+  }
+
+
+  
